@@ -67,7 +67,7 @@ inherited fTarefa2: TfTarefa2
     Height = 21
     Decimal = 0
     TabOrder = 3
-    Value = 1000.000000000000000000
+    Value = 800.000000000000000000
   end
   object nbTempo2: TNumberBox
     Left = 120

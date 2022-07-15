@@ -80,9 +80,9 @@
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
         <VerInfo_Keys>CompanyName=;FileDescription=$(MSBuildProjectName);FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProgramID=com.embarcadero.$(MSBuildProjectName);ProductName=$(MSBuildProjectName);ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
         <VerInfo_Locale>1033</VerInfo_Locale>
-        <DCC_DcpOutput>D:\Programacao\Projetos\Softplan\Componente\lib\</DCC_DcpOutput>
-        <DCC_BplOutput>D:\Programacao\Projetos\Softplan\Componente\bin\</DCC_BplOutput>
-        <DCC_DcuOutput>D:\Programacao\Projetos\Softplan\Componente\lib\</DCC_DcuOutput>
+        <DCC_DcpOutput>D:\Programacao\Projetos\Softplan\RdSoftplan\Fontes\Componente\lib\</DCC_DcpOutput>
+        <DCC_BplOutput>D:\Programacao\Projetos\Softplan\RdSoftplan\Fontes\Componente\bin\</DCC_BplOutput>
+        <DCC_DcuOutput>D:\Programacao\Projetos\Softplan\RdSoftplan\Fontes\Componente\lib\</DCC_DcuOutput>
         <DCC_UsePackage>vcl;rtl;dbrtl;FireDAC;FireDACCommonDriver;FireDACCommon;$(DCC_UsePackage)</DCC_UsePackage>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base_Win64)'!=''">
@@ -139,6 +139,7 @@
                     <Source Name="MainSource">spComponente.dpk</Source>
                 </Source>
                 <Excluded_Packages>
+                    <Excluded_Packages Name="D:\Programacao\Projetos\Softplan\Componente\bin\spComponentesDT.bpl">File D:\Programacao\Projetos\Softplan\Componente\bin\spComponentesDT.bpl not found</Excluded_Packages>
                     <Excluded_Packages Name="$(BDSBIN)\dcloffice2k270.bpl">Microsoft Office 2000 Sample Automation Server Wrapper Components</Excluded_Packages>
                     <Excluded_Packages Name="$(BDSBIN)\dclofficexp270.bpl">Microsoft Office XP Sample Automation Server Wrapper Components</Excluded_Packages>
                 </Excluded_Packages>
